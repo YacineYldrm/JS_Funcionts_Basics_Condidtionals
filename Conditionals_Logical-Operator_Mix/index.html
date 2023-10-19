@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions_Basics</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Wer erreicht mehr Punkte?</h1>
+    <form onsubmit="return false">
+        <h2>Player One</h2>
+        <div>
+            <label for="name1">Player Name</label>
+            <input type="text" class="name1" id="name1" placeholder="Name">
+        </div>
+        <div>
+            <label for="height">Größe</label>
+            <input type="number" class="height1" id="height1" placeholder="z.B 180cm">
+        </div>
+        <div>
+            <label for="height">Alter</label>
+            <input type="number" class="age1" id="age1" placeholder="z.B. 30">
+        </div>
+        <h2>Player Two</h2>
+        <div>
+            <label for="name2">Player Name</label>
+            <input type="text" class="name2" id="name2" placeholder="Name">
+        </div>
+        <div>
+            <label for="height">Größe</label>
+            <input type="number" class="height2" id="height2" placeholder="z.B 180cm">
+        </div>
+        <div>
+            <label for="height">Alter</label>
+            <input type="number" class="age2" id="age2" placeholder="z.B. 30">
+        </div>
+    </form>
+    <button onclick="calcWinner()">Gewinner:in ermitteln</button>
+    <p id="result"></p>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

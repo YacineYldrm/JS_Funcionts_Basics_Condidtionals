@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions_Basics</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form>
+        <div>
+            <p>Air Quality Index:</p>
+            <p id="rangeValue"></p>
+        </div>
+        <input type="range" oninput="checkAirQuality()" class="range_slider" id="range_slider" min="0" max="150">
+        <p id="concern_text">Use the slider</p>
+        <p id="effect_text">to get info.</p>
+    </form>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

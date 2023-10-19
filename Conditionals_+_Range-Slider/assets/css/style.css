@@ -1,0 +1,45 @@
+body
+{
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s linear;
+}
+
+body form 
+{
+    padding-bottom: 150px;
+}
+
+body form div
+{
+    display: flex;
+    gap: 10px;
+}
+
+body form input
+{
+    width: 700px;
+}
+
+body > form > p
+{
+    font-size: 24px;
+}
+
+.levelGood
+{
+    background-color: green;
+}
+
+.levelModerate
+{
+    background-color: yellow;
+}
+
+.levelUnhealthy
+{
+    background-color: red;
+}
