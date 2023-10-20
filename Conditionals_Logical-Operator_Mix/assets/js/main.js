@@ -30,7 +30,7 @@ function ageCalc(yearBorn)
     } 
 } 
 
-// Falls Geburtsjahr gültig, den zurückgegebenen Wert zwischenspeichern. Ansonsten User auf ungültigen Wert hinweisen.
+// Den zurückgegebenen Wert zwischenspeichern. Falls Geburtsjahr gültig, das Alter ausgeben. Ansonsten User auf ungültigen Wert hinweisen.
 
 let myAge = ageCalc(1986)
 
